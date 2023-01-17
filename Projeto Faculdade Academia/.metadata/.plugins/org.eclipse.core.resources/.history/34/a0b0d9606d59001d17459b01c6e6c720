@@ -1,0 +1,7 @@
+package Projeto;
+
+public static void Usuario {
+	public void Login();
+	public void ExibirPlano();
+	public void cancelarPlano();
+}

@@ -1,0 +1,7 @@
+package Projeto;
+
+public interface Plano {
+	// METODOS
+	public void imprimePlano();
+	public void cadastrarPlano();
+}

@@ -1,0 +1,24 @@
+package Projeto;
+
+public class Funcionario extends Pessoa{
+	
+	// ATRIBUTOS
+	private String matriculo;
+	
+	// GET E SET
+	public String getMatriculo() {
+		return matriculo;
+	}
+
+	public void setMatriculo(String matriculo) {
+		this.matriculo = matriculo;
+	}
+	
+	// CONSTRUTOR
+	Funcionario(){}
+	Funcionario(String m){
+		this.matriculo = m;
+	}
+	
+	
+}

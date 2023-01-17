@@ -1,0 +1,10 @@
+package Projeto;
+
+public interface IFuncionario {
+	
+	// METODOS	
+	public Aluno cadastrarAluno();
+	public Plano cadastrarPlano(String tipo);
+	public boolean cancelarCadastro(boolean mens);
+	
+}

@@ -1,0 +1,16 @@
+package Projeto;
+
+public class Aluno {
+	// ATRIBUTOS
+	private int anoNascimento;
+	private String rg;
+	
+	// CONSTRUTORES
+	Aluno(){}
+	Aluno(int an, String rg){
+		this.anoNascimento = an;
+		this.rg = rg;
+	}
+	
+	
+}

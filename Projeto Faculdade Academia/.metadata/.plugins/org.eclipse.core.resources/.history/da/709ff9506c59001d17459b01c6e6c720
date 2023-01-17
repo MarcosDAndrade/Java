@@ -1,0 +1,9 @@
+package Projeto;
+
+public interface IFuncionario {
+	
+	// METODOS	
+	public Aluno cadastrarAluno();
+	public Plano cadastrarPlano();
+	
+}

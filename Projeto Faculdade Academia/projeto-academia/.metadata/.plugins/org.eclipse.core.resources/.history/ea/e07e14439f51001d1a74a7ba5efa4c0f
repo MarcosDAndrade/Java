@@ -1,0 +1,7 @@
+package Projeto;
+
+public class Plano {
+	private String tipoPlano;
+	private double mensalidade;
+	
+}

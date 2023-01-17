@@ -1,0 +1,37 @@
+package Projeto;
+
+public class Sistema {
+
+	public static void imprimeDados(Aluno aluno) {
+		imprimirInterface("ALUNO");
+		System.out.println("Nome: " + aluno.getNome() + "\n"
+							+ "Telefone: " + aluno.getTelefone() + "\n"
+							+ "Email: " + aluno.getEmail() + "\n"
+							+ "Ano Nascimento: " + aluno.getAnoNascimento() + "\n"
+							+ "RG: " + aluno.getRg());
+	}
+	
+	public static void imprimeDados(Funcionario funcionario) {
+		imprimirInterface("FUNCIONARIO");
+		System.out.println("Nome: " + funcionario.getNome() + "\n"
+							+ "Telefone: " + funcionario.getTelefone() + "\n"
+							+ "Email: " + funcionario.getEmail() + "\n"
+							+ "Matricula: " + funcionario.getMatriculo() + "\n");
+	}
+	
+	private static void imprimirInterface(String tipoPessoa) {
+		System.out.println("------------------");
+		System.out.println("| DADOS DO " + tipoPessoa +" |");
+		System.out.println("------------------");	
+	}
+	
+	
+	public static void imprimePlanosDisponiveis() {
+		System.out.println("[1] PLANO INICIANTE: MUSCULAÇÃO" + "\n"
+							+ "[2] PLANO PRO: " + "\n"
+							+ "[3] PLANO VIP: ");
+		
+	}
+	
+	
+}
