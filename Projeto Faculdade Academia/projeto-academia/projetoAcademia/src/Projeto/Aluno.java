@@ -1,7 +1,5 @@
 package Projeto;
 
-import java.util.Scanner;
-
 public class Aluno extends Pessoa{
 	// ATRIBUTOS
 	private int anoNascimento;
