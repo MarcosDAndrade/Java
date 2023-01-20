@@ -48,7 +48,7 @@ public class Funcionario extends Pessoa implements Cadastrar {
 		String rg = leia.nextLine();
 		aluno01.setRg(rg);
 		return aluno01;
-	}
+	} 
 	
 	public Plano cadastrarPlano() {
 		System.out.println("-------------------");
@@ -79,7 +79,7 @@ public class Funcionario extends Pessoa implements Cadastrar {
 			break;
 		}
 		
-		}	
+		}	leia.close();
 		return p1;
 	}
 	@Override

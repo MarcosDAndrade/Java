@@ -9,15 +9,15 @@ public class Test {
 		
 		System.out.println("Type first trimester note: ");
 		double first = sc.nextDouble();
-		t.setFirsttrimester(first);
+		t.setFirsttime(first);
 		
 		System.out.println("Type first trimester note: ");
 		double second = sc.nextDouble();
-		t.setSecondtrimester(second);
+		t.setSecondtime(second);
 		
 		System.out.println("Type first trimester note: ");
 		double third = sc.nextDouble();
-		t.setThirdtrimester(third);
+		t.setThirdtime(third);
 		
 		
 		t.showResults();

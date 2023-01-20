@@ -2,22 +2,22 @@ package ExercicioMedia;
 
 public class Student {
 	private String name;
-	private double  firsttrimester;
-	private double secondtrimester;
-	private double thirdtrimester;
+	private double  firsttime;
+	private double secondtime;
+	private double thirdtime;
 	
 	public Student() {
 		
 	}
-	public Student(String name, double firsttrimester, double secondtrimester, double thirdtrimester) {
+	public Student(String name, double firsttime, double secondtime, double thirdtime) {
 		this.name = name;
-		this.firsttrimester = firsttrimester;
-		this.secondtrimester = secondtrimester;
-		this.thirdtrimester = thirdtrimester;
+		this.firsttime = firsttime;
+		this.secondtime = secondtime;
+		this.thirdtime = thirdtime;
 	}
 	
 	public void showResults() {
-		double total = firsttrimester + secondtrimester + thirdtrimester;
+		double total = firsttime + secondtime + thirdtime;
 		double media = 60.0;
 		if (total >= media) {
 			System.out.println("FINAL GRADE: " + total + "\n PASS");			
@@ -34,23 +34,23 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public double getFirsttrimester() {
-		return firsttrimester;
+	public double getFirsttime() {
+		return firsttime;
 	}
-	public void setFirsttrimester(double firsttrimester) {
-		this.firsttrimester = firsttrimester;
+	public void setFirsttime(double firsttime) {
+		this.firsttime = firsttime;
 	}
-	public double getSecondtrimester() {
-		return secondtrimester;
+	public double getSecondtime() {
+		return secondtime;
 	}
-	public void setSecondtrimester(double secondtrimester) {
-		this.secondtrimester = secondtrimester;
+	public void setSecondtime(double secondtime) {
+		this.secondtime = secondtime;
 	}
-	public double getThirdtrimester() {
-		return thirdtrimester;
+	public double getThirdtime() {
+		return thirdtime;
 	}
-	public void setThirdtrimester(double thirdtrimester) {
-		this.thirdtrimester = thirdtrimester;
+	public void setThirdtime(double thirdtime) {
+		this.thirdtime = thirdtime;
 	}
 	
 	
