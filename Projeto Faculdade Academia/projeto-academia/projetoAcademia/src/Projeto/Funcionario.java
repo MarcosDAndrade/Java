@@ -47,6 +47,7 @@ public class Funcionario extends Pessoa implements Cadastrar {
 		System.out.print("RG: ");
 		String rg = leia.nextLine();
 		aluno01.setRg(rg);
+		leia.close();
 		return aluno01;
 	} 
 	
