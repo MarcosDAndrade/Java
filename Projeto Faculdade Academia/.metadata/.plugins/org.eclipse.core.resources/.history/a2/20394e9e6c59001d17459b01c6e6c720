@@ -1,5 +1,0 @@
-package Projeto;
-
-public interface Usuario {
-	public void Login();
-}

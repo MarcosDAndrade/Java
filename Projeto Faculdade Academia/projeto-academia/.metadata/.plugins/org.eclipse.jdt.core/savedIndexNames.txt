@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\mponte\Downloads\31FE0BF9-B1FC-4249-8275-DBD617E5D3B5.projeto-academia\projeto-academia\.metadata\.plugins\org.eclipse.jdt.core
-177102921.index
-1865797976.index

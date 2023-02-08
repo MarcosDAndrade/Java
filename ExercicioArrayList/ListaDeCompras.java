@@ -10,7 +10,7 @@ public class ListaDeCompras {
 		int itens = sc.nextInt();
 		
 		System.out.println("Digite os itens: ");
-		for (int i=01;i<=itens;i++) {
+		for (int i=1;i<=itens;i++) {
 			Lista.add(sc.nextLine());
 		}
 		System.out.println("Lista de compras: ");	

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Projeto.IFuncionario&apos; to &apos;Cadastrar&apos;&#x0D;&#x0A;- Original project: &apos;projetoAcademia&apos;&#x0D;&#x0A;- Original element: &apos;Projeto.IFuncionario&apos;&#x0D;&#x0A;- Renamed element: &apos;Projeto.Cadastrar&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IFuncionario&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Projeto{IFuncionario.java[IFuncionario" matchStrategy="1" name="Cadastrar" qualified="false" references="true" similarDeclarations="false" stamp="1667255726843" textual="false" version="1.0"/>
-</session>
