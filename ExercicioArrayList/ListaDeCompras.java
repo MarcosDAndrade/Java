@@ -13,9 +13,8 @@ public class ListaDeCompras {
 		for (int i=01;i<=itens;i++) {
 			Lista.add(sc.nextLine());
 		}
-		
-		System.out.println("Lista de compras: ");
-		for(String Total:Lista) {			
+		System.out.println("Lista de compras: ");	
+		for(String Total:Lista) {		
 			System.out.println(Total);
 		}
 	}
